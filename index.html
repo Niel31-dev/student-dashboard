@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h2>HOME</h2>
+        <div class="user-info">
+            <span class="bell">🔔</span>
+            <span class="profile">⚪</span>
+        </div>
+    </header>
+
+    <main>
+        <section class="greeting">
+            <h3>Good Morning,</h3>
+            <h2>Pookrah</h2>
+        </section>
+
+        <section class="assignments">
+            <div class="task">
+                <p><strong>CSM 399 Quiz 5</strong></p>
+                <p class="due">Due: Feb 25</p>
+            </div>
+        </section>
+
+        <section class="grades">
+            <p>CSM 357: <span class="grade pass">A</span></p>
+            <p>CSM 220: <span class="grade fail">D</span></p>
+        </section>
+
+        <section class="progress">
+            <h3>Study Progress</h3>
+            <div class="progress-bar">
+                <div class="progress-fill" style="width: 60%;"></div>
+            </div>
+            <p class="progress-text">60% Completed</p>
+        </section>
+
+        <section class="recent-activity">
+            <h3>Recent Activity</h3>
+            <p>✅ Submitted CSM 357 Assignment</p>
+            <p>⚠️ CSM 220 Quiz Due Tomorrow</p>
+        </section>
+
+        <section class="study-tips">
+            <h3>Study Tips</h3>
+            <ul>
+                <li>⏳ Take breaks every 25 minutes to stay focused!</li>
+                <li>🎯 Set clear goals for better study efficiency.</li>
+                <li>📖 Review notes daily to improve retention!</li>
+            </ul>
+        </section>
+
+        <button id="save-btn">Save</button>
+    </main>
+
+    <nav>
+        <button>Assignment</button>
+        <button>Progress</button>
+        <button>Grades</button>
+        <button>Settings</button>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>
