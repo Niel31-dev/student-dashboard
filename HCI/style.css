@@ -1,0 +1,83 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #dbeafe; /* Light blue */
+}
+
+/* Sections */
+.greeting, .assignments, .grades, .progress, .recent-activity, .study-tips {
+    background: white;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Study Progress Bar */
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: #4CAF50;
+}
+
+.progress-text {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Grades */
+.grade {
+    font-weight: bold;
+}
+
+.pass {
+    color: green;
+}
+
+.fail {
+    color: red;
+}
+
+/* Save Button */
+#save-btn {
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+    padding: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Bottom Navigation */
+nav {
+    display: flex;
+    justify-content: space-around;
+    background: #ddd;
+    padding: 10px;
+}
+
+nav button {
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
